@@ -1,0 +1,240 @@
+{
+   "quests":[
+      {
+         "tag":"greeting",
+         "patterns":[
+            "Hi there",
+            "How are you",
+            "Is anyone there?",
+            "Hey",
+            "Hola",
+            "Hello",
+            "Good day"
+         ],
+         "responses":[
+            "Hello, thanks for asking",
+            "Good to see you again",
+            "Hi there, how can I help?"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"goodbye",
+         "patterns":[
+            "Bye",
+            "See you later",
+            "Goodbye",
+            "Nice chatting to you, bye",
+            "Till next time"
+         ],
+         "responses":[
+            "See you!",
+            "Have a nice day",
+            "Bye! Come back again soon."
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"thanks",
+         "patterns":[
+            "Thanks",
+            "Thank you",
+            "That's helpful",
+            "Awesome, thanks",
+            "Thanks for helping me"
+         ],
+         "responses":[
+            "Happy to help!",
+            "Any time!",
+            "My pleasure"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"noanswer",
+         "patterns":[" ","qetyyiuioipopop","jkjkjljl","   jkjbnb"
+            
+         ],
+         "responses":[
+            "Sorry, can't understand you",
+            "Please give me more info",
+            "Not sure I understand"
+         ],
+         "context":[
+            ""
+         ]
+      },
+            
+      {
+        "tag":"help",
+         "patterns":[
+            "What you can do?",
+            "What help you provide?",
+            "How you can be helpful?",
+            "What support is offered"
+         ],
+         "responses":[
+            " My name is Yuva! I am a personal assistant of Rajeswari  I can do my best",
+            " My name is Yuva! I am a pre-trained model robot for Q/A assitance by data scientist Raji"
+         ],
+         "context":[
+            ""
+         ]
+      },
+
+     {
+         "tag":"neural_network",
+         "patterns":[
+            "What is neural network?",
+            "Can you tell me the about neural network?",
+            "What language can I start for programming",
+            "what is role of neural network in AI?",
+            "I am a beginner and I need to learn a Neural Network"
+         ],
+         "responses":[
+            "A neural network is a computational model in artificial intelligence (AI) inspired by the structure and function of the human brain",
+            "Neural networks are machine learning models that mimic the complex functions of the human brain."
+         ],
+         "context":[
+            ""
+         ]
+      },
+
+       {
+         "tag":"natural_language_processing",
+         "patterns":[
+            "What is natual language processing?",
+            "Can you tell me the about natual language processing?",
+            "what is nlp?",
+            "tell me about nlp??",
+            "I am a beginner and I need to learn a natual language processing"
+         ],
+         "responses":[
+            "In AI,Natural Language Processing, is a field that focuses on enabling computers to understand, interpret, and generate human language.",
+            "Natural Language Processing (NLP) helps computers understand, process and create human language in a way that makes sense and is useful. "
+         ],
+         "context":[
+            ""
+         ]
+      },
+     
+     {
+         "tag":"over_fitting",
+         "patterns":[
+            "what is overfitting in machine learning?",
+            "Can you tell me the about overfitting?",
+            "what is overfitting?",
+            "tell me about high variance??",
+            "I am a beginner and I need to learn a overfitting in ml? "
+         ],
+         "responses":[
+            "In machine learning, overfitting occurs when a model learns the training data too well, including its noise and random fluctuations, resulting in poor generalization to new, unseen data.",
+            "Overfitting happens when a model learns too much from the training data, including details that don’t matter (like noise or outliers).it has high variance. "
+         ],
+         "context":[
+            ""
+         ]
+      },
+
+      {
+         "tag":"built_in_libraries",
+         "patterns":[
+            "what are the libraries used in python?",
+            "Can you tell me the about Libraries in Python?",
+            "list of libraries?",
+            "tell me about the libraries in python??",
+            "I am a beginner and I need to learn the libraries in python"
+         ],
+         "responses":[
+            "A Python library contains bundles of code that can be used repeatedly in different programs.pandas,numpy,seaborn,scipy,..",
+            "Tensorflow,pandas,numpy,seaborn,scipy,scikit-learn,random,matplotlib,pytorch,keras,Beautiful Soup,nltk,scrapy,requests... "
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"data science",
+         "patterns":[
+            "what is data science?",
+            "tell me about data science?",
+            "what data science do in Ml/AI?"
+          ],
+         "responses":[
+            "Data science is an interdisciplinary field that combines techniques from statistics, computer science, and information science to analyze and interpret data"
+     		],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Machine learning",
+         "patterns":[
+            "what is machine learning?",
+            "tell me about machine learning?",
+            "what is ML?"
+         ],
+         "responses":[
+            "Machine learning is a subfield of artificial intelligence that focuses to creating algorithms allow computers to identify patterns, make predictions for analysis."
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Types of ML",
+         "patterns":[
+            "what are the types of machine learning?",
+            "tell me about machine learning types?",
+            "what is ML types?"
+         ],
+         "responses":[
+            "Supervised Learning,UnSupervised Learning and Reinforcement Learning."
+          ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"python_is_best",
+         "patterns":[
+            "Which is the best programming language?",
+            "Can you tell me the best language ever?",
+            "What language can I start for programming",
+            "Is Python language an awesome language?",
+            "I am a beginner and I need to learn a new language"
+         ],
+         "responses":[
+            "Without a doubt, Python is the most BEAUTIFUL language ever! You can start learning it anytime",
+            "I am a fan of Python. It's my favorite ever. If you don't believe me, try it yourself"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"joke",
+         "patterns":[
+            "tell me a joke",
+            "can you tell me a joke",
+            "make some fun",
+            "make me laugh and do some funny joke",
+            "crack me up"
+         ],
+         "responses":[
+            "why don't crabs donate to charity? because they are shellfish.",
+            "why don't cats play poker in the jungle? because there are too many cheetahs.",
+            "how do celebrities stay cool? because they have a lot of fans."
+         ],
+         "context":[
+            ""
+         ]
+      }
+   ]
+}
